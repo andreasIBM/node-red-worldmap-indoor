@@ -1,0 +1,37 @@
+{
+  "name": "node-red-web-worldmap-indoor",
+  "version": "0.0.5",
+  "description": "Customized version of node-red-contrib-web-worldmap.",
+  "dependencies": {
+    "express": "^4.15.0",
+    "socket.io": "^1.7.3",
+    "cgi": "0.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dceejay/RedMap.git"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "indoor",
+    "map",
+    "world"
+  ],
+  "node-red": {
+    "nodes": {
+      "worldmap": "worldmap.js"
+    }
+  },
+  "author": "Andreas Frölich <andreas.froelich@de.ibm.com> (http://nodered.org)",
+  "bugs": {
+    "url": "https://github.com/dceejay/RedMap/issues"
+  },
+  "homepage": "https://github.com/dceejay/RedMap#readme",
+  "main": "worldmap.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
